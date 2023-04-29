@@ -28,7 +28,6 @@ const DUMMY_MEALS = [
       price: 18.99,
     },
   ];
-
   const AvailableMeals = ()=>{
 
     const meals = DUMMY_MEALS.map((meal)=><Li key={meal.id} name={meal.name} description = {meal.description} price={meal.price}></Li>);

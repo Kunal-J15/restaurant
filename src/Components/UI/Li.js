@@ -1,9 +1,9 @@
 
+import MealMiniForm from '../Meals/MealMiniForm';
 import './Li.css';
 
 const Li = (props) => {
   const price = `$${props.price.toFixed(2)}`;
-
   return (
     <li className="meal">
       <div>
@@ -11,7 +11,9 @@ const Li = (props) => {
         <div className="description">{props.description}</div>
         <div className="price">{price}</div>
       </div>
-      <div></div>
+      <div>
+      <MealMiniForm/>
+      </div>
     </li>
   );
 };
