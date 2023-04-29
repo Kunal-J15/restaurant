@@ -1,0 +1,11 @@
+.summary {
+    width: 30%;
+    margin: 0 auto;
+    background-color: #3f3f3f;
+    box-shadow: 5px 5px 5px 5px #2a2929,-5px -5px 5px 5px #2a2929;
+    border-radius: .5rem;
+    padding: 5px 20px;
+    position: relative;
+    color: white;
+    top:-15rem
+}
