@@ -25,12 +25,12 @@ const DUMMY_MEALS = [
       id: 'm4',
       name: 'Green Bowl',
       description: 'Healthy...and green...',
-      price: 18.99,
+      price: 18.99, 
     },
   ];
   const AvailableMeals = ()=>{
 
-    const meals = DUMMY_MEALS.map((meal)=><Li key={meal.id} name={meal.name} description = {meal.description} price={meal.price}></Li>);
+    const meals = DUMMY_MEALS.map((meal)=><Li key={meal.id} id={meal.id} name={meal.name} description = {meal.description} price={meal.price}></Li>);
     return (<section className="Meal">
         <ul >{meals}</ul>
     </section>)
