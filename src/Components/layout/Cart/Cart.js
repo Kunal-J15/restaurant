@@ -1,9 +1,7 @@
 import Modal from "./Modal";
 import "./Cart.css"
-
 const Cart = (props)=>{
      const cartItems = <ul className='cart-items'>{[{id:"c1",name:"Sushi",amount:2,price:13}].map(item=><li key={item.id} >{item.name}</li>)}</ul>
-
      return (
         <Modal>
             {cartItems}
