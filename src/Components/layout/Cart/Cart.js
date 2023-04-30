@@ -12,7 +12,7 @@ const Cart = (props)=>{
                 <span>35.66</span>
             </div>
             <div className="actions">
-                <button className="button-alt">Close</button>
+                <button className="button-alt" onClick={props.cartClicked}>Close</button>
                 <button className="button">Order</button>
             </div>
         </Modal>
